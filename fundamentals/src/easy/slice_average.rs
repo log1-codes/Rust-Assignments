@@ -9,5 +9,11 @@
 */
 
 pub fn average(values: &[f64]) -> Option<f64> {
-    todo!()
+    if values.is_empty(){
+      return None; 
+    }
+    let sum : f64 = values.iter().sum();
+    let count = values.len() as f64; // len return usize convert to f64 to devide a float by it 
+    Some(sum/count)
+
 }

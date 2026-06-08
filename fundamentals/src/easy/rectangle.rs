@@ -8,7 +8,6 @@
   Run the tests for this problem with:
     cargo test --test rectangle_test
 */
-
 pub struct Rectangle {
     pub width: f64,
     pub height: f64,
@@ -16,10 +15,10 @@ pub struct Rectangle {
 
 impl Rectangle {
     pub fn area(&self) -> f64 {
-        todo!()
+        self.width * self.height
     }
 
     pub fn is_square(&self) -> bool {
-        todo!()
+        self.width == self.height
     }
 }

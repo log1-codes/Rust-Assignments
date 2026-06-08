@@ -1,5 +1,5 @@
 /*
-  Problem 14: Safe Division with Option
+: Safe Division with Option
 
   Write a function that divides two f64 numbers.
   Return None if the divisor is zero, otherwise return Some(result).
